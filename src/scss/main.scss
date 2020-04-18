@@ -1,16 +1,39 @@
 @import "_normalize";
 @import "_variables";
 
-
 html {
   box-sizing: border-box;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
 body {
   color: $yellow;
   background: $violet;
+  min-height: 100vh;
+  margin: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.editor {
+  margin: 16px;
+  &__enter {
+    height: 360px;
+    width: 480px;
+    border-radius: 16px;
+    padding: 0;
+    border: 0;
+  }
+}
+
+.editor__label {
+}
+
+.editor__enter {
 }
