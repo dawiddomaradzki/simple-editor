@@ -1,9 +1,8 @@
-# wtf-gulp-starter
+![simple editor screenshot](Przechwytywanie.PNG)
+# simple editor
 
-`npm install -g gulp-cli`
+Zapraszam na moją strone: [simple-editor](https://dawiddomaradzki.github.io/simple-editor/)
 
-`npm install`
+## Działanie edytora
 
-`gulp`
-
-To publish your page using github pages use `npm run deploy`
+Edytor wykorzystuje localstorage. Za pomocą save zapisuje wprowadzony tekst, load wczytuje zapisany tekst z localstorage.
