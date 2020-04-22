@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>My editor</title>
+  <meta name="description" content="Description" />
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body>
+  <main>
+    <form class="editor">
+      <label for="enter">
+        <h1 class="editor__label">Enter the text: </h1><br>
+      </label>
+      <input type="text" class="editor__enter editor__enter--js" placeholder="Enter the text:" id="enter"
+        name="enter" autocomplete="off">
+      <div class="editor__button">
+        <button class="editor__button--click editor__button--load--js" aria-label="Wczytaj"
+          onclick="void(0)">Load</button>
+        <button class="editor__button--click editor__button--save--js" aria-label="Zapisz"
+          onclick="void(0)">Save</button>
+      </div>
+    </form>
+  </main>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
