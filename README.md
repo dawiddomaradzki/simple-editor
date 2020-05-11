@@ -1,7 +1,7 @@
 ![simple editor screenshot](Przechwytywanie.PNG)
 # simple editor
 
-Zapraszam na moją strone: [simple-editor](https://dawiddomaradzki.github.io/simple-editor/)
+Zapraszam na moją strone: [simple-editor](https://dawiddomaradzki.github.io/hydrapp/)
 
 ## Działanie edytora
 
